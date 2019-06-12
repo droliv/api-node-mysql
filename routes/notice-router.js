@@ -1,4 +1,5 @@
-const controller = require("../app/controller/notice-controller");
+const Controller = require("../app/controller/notice-controller");
+const controller = new Controller();
 const express = require("express");
 const notice = express.Router();
 
